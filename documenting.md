@@ -341,6 +341,4 @@ This confirmed the entire alerting pipeline works: detection → SNS publish →
 
 This lab taught me a lot about AWS cloud security—especially how exposed metadata credentials and public S3 buckets can be abused by attackers. Building the infrastructure with Terraform, simulating the attack from an EC2 instance, and sending real-time alerts with Python and SNS gave me a hands-on understanding of how to detect and respond to these threats in real environments.
 
-This is a project I’m proud of — and I’m ready to take these skills into the real world.
-
 ---
