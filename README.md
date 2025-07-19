@@ -1,39 +1,38 @@
-# Terraform & Bot3 AWS Cloud Automation Lab
+# ☁️ Terraform & Bot3 AWS Cloud Automation Lab
 
-This lab project demonstrates how I combined Terraform (for infrastructure-as-code) and Bot3 (a custom Python-based automation bot) to deploy and manage AWS cloud resources efficiently. This is my first time working with Terraform and automation bots, and I documented every step as I learned it hands-on.
+This lab project is all about combining **Terraform** (for infrastructure as code) and **Bot3**, a custom Python automation bot I built using `boto3`, to create and manage AWS resources more efficiently. It was my first time diving into Terraform, and I used this project to really understand how infrastructure and automation can work together.
 
-## 🔧 Tools Used:
-- **Terraform**: For provisioning AWS infrastructure
-- **AWS CLI & IAM**: To configure and authenticate access
-- **Python + Bot3 Script**: For automated resource creation and tagging
-- **GitHub**: Version control & documentation
+---
 
-## 🧠 What I Built
-- A Terraform script that spins up an AWS EC2 instance and S3 bucket with correct IAM permissions
-- A Bot3 automation bot that interacts with AWS services (via `boto3`), reads config from `.env`, and creates tags, uploads files, and checks EC2 states
-- A `.tfvars`-based setup for reusability and separation of credentials
-- Logs and output are stored and managed for visibility
+## 🛠️ Tools & Tech Used
 
-## 🔍 Key Concepts I Practiced
-- Infrastructure as Code (IaC) with Terraform
-- Using `.tf`, `.tfvars`, and state management
-- IAM Roles and policy attachment
-- `boto3` Python scripting to automate AWS tasks
-- Reading from `.env` and securely managing secrets
-- Project structuring and cleanup
+- **Terraform** — for provisioning AWS infrastructure
+- **Python (`boto3`)** — for automating AWS resource management
+- **AWS IAM & CLI** — for authentication and permissions
+- **.env Files** — to securely manage secrets
 
-## 📁 Project Structure
 
-```
-terraform-bot3-lab/
-├── main.tf              # Terraform main configuration
-├── variables.tf         # Terraform variables definition
-├── terraform.tfvars     # Actual variable values for deployment
+---
 
-├── bot3/
-│   ├── automation.py    # Python script using boto3 to automate AWS tasks
-│   ├── config.env       # Environment variables for boto3 authentication
-│   └── logs/            # Folder where script logs are stored
+## 🚀 What This Project Does
 
-└── README.md            # Project documentation
-```
+- Automatically creates an **EC2 instance** and an **S3 bucket** using Terraform
+- Uses **Python automation bot** to:
+  - Tag resources dynamically
+  - Upload files to S3
+  - Check and log EC2 instance states
+- Separates infrastructure config (`.tf`) from credentials (`.tfvars`)
+- Stores logs and keeps everything modular and reusable
+
+---
+
+## 🧠 Key Concepts I Practiced
+
+- Writing modular **Terraform** code with `main.tf`, `variables.tf`, and `terraform.tfvars`
+- **Infrastructure as Code (IaC)** approach
+- Automating AWS with `boto3` + `.env` configs
+- Logging and output management in Python
+- IAM role permissions and best practices
+- Hands-on debugging of both Terraform and Python API issues
+
+---
