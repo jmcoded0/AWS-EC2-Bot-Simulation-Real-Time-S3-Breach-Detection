@@ -36,3 +36,6 @@ This lab project is all about combining **Terraform** (for infrastructure as cod
 - Hands-on debugging of both Terraform and Python API issues
 
 ---
+👉 **Full hands-on documentation:** [documenting.md](https://github.com/jmcoded0/AWS-S3-Data-Breach-Detection-Response-Lab-Terraform-Boto3-/blob/main/documenting.md)
+
+---
