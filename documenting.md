@@ -1,3 +1,27 @@
+# AWS EC2 Bot Simulation & Real-Time S3 Breach Detection  
+**Category:** Cloud Security | Infrastructure as Code | Threat Detection & Response
+
+---
+
+## 📌 Project Overview  
+This project demonstrates how to detect and respond to suspicious AWS S3 activity in **real time**. I provisioned an EC2 instance with **Terraform**, simulated attacker behavior using a **Python bot**, and built an alerting pipeline with **CloudTrail**, **CloudWatch**, and **SNS** to send instant email alerts.
+
+In a real-world environment, this setup could help security teams **reduce cloud breach detection time from hours to seconds**.
+
+---
+
+## 🛠 Tech Stack  
+- **AWS Services:** EC2, IAM, S3, CloudTrail, CloudWatch, SNS  
+- **IaC:** Terraform  
+- **Programming:** Python (Boto3)  
+- **Security Mapping:** MITRE ATT&CK – T1530: Data from Cloud Storage Object  
+
+---
+
+## 🗂 Architecture  
+Attacker EC2 → AWS API (S3 Actions) → CloudTrail → CloudWatch Event Rule → SNS → Email Alert
+
+
 ## ✅ Phase 1: Infrastructure Setup with Terraform — EC2 Bot Environment
 
 In this phase, I automated the provisioning of an EC2 instance with a custom IAM role using Terraform. This sets the foundation for the AWS bot script that will run on the instance.
