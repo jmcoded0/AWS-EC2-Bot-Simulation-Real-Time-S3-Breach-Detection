@@ -37,5 +37,4 @@ This lab project is all about combining **Terraform** (for infrastructure as cod
 ---
 
 👉 **Full hands-on documentation with screenshots and code:**  
-📄 [`documenting.md`](https://github.com/jmcoded0/AWS-S3-Data-Breach-Detection-Response-Lab-Terraform-Boto3-/blob/main/documenting.md)
-
+📄 [`documenting.md`](https://github.com/jmcoded0/AWS-EC2-Bot-Simulation-Real-Time-S3-Breach-Detection/blob/main/documenting.md)
