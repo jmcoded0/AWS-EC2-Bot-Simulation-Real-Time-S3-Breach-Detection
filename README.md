@@ -1,4 +1,4 @@
-# ☁️ Terraform & Boto3 AWS Cloud Automation Lab
+# ☁️ Terraform & Boto3 AWS Cloud Automation 
 
 This lab project is all about combining **Terraform** (for infrastructure as code) and **Boto3**, a custom Python automation bot I built using `boto3`, to create and manage AWS resources more efficiently. It was my first time diving into Terraform, and I used this project to really understand how infrastructure and automation can work together.
 
