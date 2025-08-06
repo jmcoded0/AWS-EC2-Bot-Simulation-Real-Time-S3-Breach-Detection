@@ -1,4 +1,4 @@
-# AWS EC2 Bot Simulation & Real-Time S3 Breach Detection  
+# ☁️ Terraform & Boto3 AWS Cloud Automation 
 **Category:** Cloud Security | Infrastructure as Code | Threat Detection & Response
 
 ---
